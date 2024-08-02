@@ -1,0 +1,19 @@
+.recent_container {
+  width: 60%;
+  height: 345px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  margin-left: 1rem;
+  overflow-y: auto;
+  margin-top: 10px;
+}
+.recent_title {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 32.17px;
+  text-align: left;
+  position: fixed;
+  top: 41%;
+}

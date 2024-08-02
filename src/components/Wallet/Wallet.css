@@ -1,0 +1,32 @@
+.wallet_container {
+  min-width: 400px;
+  min-height: 200px;
+  background-color: #9b9b9b;
+  border-radius: 15px;
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  button {
+    width: 10rem;
+    height: 5vh;
+    border-radius: 15px;
+    border: none;
+    background: linear-gradient(90deg, #b5dc52 0%, #89e148 100%);
+  }
+}
+
+.wallet_title {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 34.47px;
+  text-align: left;
+  span {
+    color: #9dff5b;
+  }
+}
