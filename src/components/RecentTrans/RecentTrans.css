@@ -17,3 +17,10 @@
   position: fixed;
   top: 41%;
 }
+
+.recent_noData {
+  position: fixed;
+  top: 65%;
+  color: black;
+  left: 30%;
+}

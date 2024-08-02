@@ -5,3 +5,10 @@
   border-radius: 15px;
   margin-left: 2rem;
 }
+
+.top_noData {
+  position: fixed;
+  top: 65%;
+  color: black;
+  left: 75%;
+}

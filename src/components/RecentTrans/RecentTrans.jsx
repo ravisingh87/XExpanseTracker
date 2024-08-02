@@ -14,7 +14,7 @@ const RecentTrans = () => {
   return (
     <div className="recent_container">
       <p className="recent_title">Recent Transactions</p>
-      {data.length &&
+      {data?.length > 0 ? (
         data.map((item) => (
           <Transaction
             key={`${item.date}+${item.title}`}
@@ -23,7 +23,10 @@ const RecentTrans = () => {
             date={item.date}
             price={item.price}
           />
-        ))}
+        ))
+      ) : (
+        <p className="recent_noData">No data</p>
+      )}
     </div>
   );
 };
